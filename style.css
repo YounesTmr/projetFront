@@ -1,0 +1,175 @@
+html , body {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+}
+p {
+    color: #777;
+}
+button {
+    background-color: #ff7A00;
+    color: white;
+    border: none;
+    height: 22px;
+}
+button :hover {
+    background-color: #02b8dd;
+}
+a {
+    color: #444;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+header {
+    display:flex ;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.travel {
+    width: 50%;
+}
+.titre {
+    text-align:right;
+    padding-right: 50px;
+}
+.menu {
+    width:50%
+}
+nav {
+    position: relative;
+    top: 42%;
+    padding-left: 40px;
+}
+.background {
+    position: absolute;
+    width:100%;
+    z-index: -1;
+}
+.logos {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logos div {
+    width:250px;
+    padding-right: 20px;
+}
+.milieu {
+    display: block;
+    margin: auto;
+    width: 480px;
+    text-align: center;
+    padding-top: 80px;
+}
+.logos div {
+    text-align: center;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    padding: 34px 0px;
+    justify-content: center;
+    background-color: rgb(216, 203, 203);
+    margin: auto;
+    flex-wrap: wrap;
+}
+/* .images div, .images img {
+    width: 150px;
+    height: 173px;
+    text-align: center;
+    padding-right: 10px;
+} */
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(32, 21, 21);
+    color: rgb(133, 107, 67);
+    padding:50px;
+    margin-top: 20px;
+}
+hr {
+    color: rgb(18, 116, 245);
+    width: 250px;
+}
+h1, h2, h4 {
+    margin: auto;
+}
+.blue {
+    background-color: rgb(18, 116, 245);
+}
+label , input {
+    margin-right: 15px;;
+}
+.orange {
+    color: chocolate;
+} 
+/* .div {
+    background-color: lightyellow;
+    padding-right: 20px;
+} */
+.button {
+    font-weight: bold;
+    /* top:250px; */
+    width: 170px;
+    height: 200px;
+    position: relative;
+    left: 602px;
+    top:36px
+}
+
+.img {
+    position: absolute;
+    z-index: 1;
+    
+}
+.img img {
+    height: 173px;
+    border-radius: 10px;
+}
+
+.cote {
+    display: flex;
+    height: 173px;
+    width: 300px;
+    padding-right: 20px;
+    margin-bottom: 20px ;
+}
+.div {
+    background-color: rgb(255, 255, 255);
+    height: 173px;
+    width: 150px;
+    text-align: center;
+    z-index: 2;
+   
+}
+
+.div :nth-child(n){
+    margin: 5px;
+}
+
+
+.boat {
+    width: 200px;position: relative;left: 974px; bottom: 100px;
+}
+/* .dauphin {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -50px;
+    left: -100px;
+    opacity: 0;
+} */

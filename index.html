@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TP de front</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="travel" id="travel">
+            <h1 class="titre">Travel Agency<span class="orange">.</span></h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="">ACCUIEL</a> 
+                <a href="">DESTINATION</a> 
+                <a href="">CIRCUITS</a> 
+                <a href="">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="photo">
+        <img class='background' src="main.jpg" alt="">
+        <div class="milieu">
+           <h1 style="font-size: 40px;"><span style="color: rgb(92, 88, 88);font-weight: lighter;">ORGANISEZ VOTRE</span> <br>VOYAGE SUR MESURE</h1>
+        </div>
+        <div>
+            <img src="personnage.png" class="button">
+            <img class="boat" src="boat.png" alt="">
+            <!-- <img class="dauphin" src="dauphin.png" alt=""> -->
+        </div>
+    </section>
+
+    <section class="logos">
+         <div>
+             <img src="steps-icon-1.png" alt="">
+             <h3>PLANIFIER</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure neque sapiente exercitationem consectetur eligendi ut eius! Officia nemo aliquid magnam assumenda </p>
+         </div>
+         <div>
+            <img src="steps-icon-2.png" alt="">
+            <h3>ORGANISER</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure neque sapiente exercitationem consectetur eligendi ut eius! Officia nemo aliquid magnam assumenda </p>
+        </div>
+        <div>
+            <img src="steps-icon-3.png" alt="">
+            <h3>VOYAGER</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure neque sapiente exercitationem consectetur eligendi ut eius! Officia nemo aliquid magnam assumenda</p>
+        </div>
+    </section>
+
+    <section class="images">
+        <div class="cote">
+            <div class="img" id="img">
+               <img src="article-image-1.jpg" alt="">
+            </div>
+            <div class="div" id="div">
+                <h4>PARTEZ EN FAMILLE</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum</p>
+                <button>Plus d'infos</button>
+            </div>   
+        </div>
+        <div class="cote">
+            <div class="img">
+                <img src="article-image-2.jpg" alt="">
+            </div>
+            <div class="div" id="div">
+                <h4>ENVIE DE S'EVADER</h4>
+                <p>Lorem ipsum dolor sit amet consectetur elit. Magni, deleniti! Odit </p>
+                <button>Plus d'infos</button>
+            </div>    
+        </div>
+    </section>
+
+    <section class="contact">
+        <p style="font-weight: bold;margin: auto;">CONTACTEZ-NOUS</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam explicabo exercitationem odit voluptate modi soluta excepturi, obcaecati nemo nisi placeat! Odio numquam voluptatem aliquid distinctio iste enim nemo? Labore.</p>
+        <form action="">
+            <label for="">Nom</label>
+            <input type="text" name="" id="" placeholder="Votre nom">
+            <label for="">Email</label>
+            <input type="text" name="" id="" placeholder="Votre email">
+            <button class="blue">OK</button>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <h1 style="color: white;">Travel Agency<span class="orange">.</span></h1>
+            <p>We are the best . It is our speciality</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        $(document).ready(function(){
+             $(".button").click(function () {
+                 $(this).animate({width:"58px",height:"83px",left:"654px",top:"-50px"},8000)
+                 $('.boat').animate({left:'660px',width:'150px',bottom:'53px'},6000)
+                //  $('.dauphin').animate({opacity: 1.0},4000);
+             })
+        });
+    </script>
+</body>
+</html>
